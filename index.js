@@ -1,8 +1,8 @@
-console.log("Desafio de Lógica - DIO");
+console.log("Desafio de Lógica 01 - DIO");
 console.log("Desafio Classificador de nível de Herói");
 
 
-function classifiarHeroi(nome, xp){
+function classificarHeroi(nome, xp){
 let nivel = "";
 
   if (xp <= 1000) {
@@ -25,4 +25,4 @@ let nivel = "";
   console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
 }
 
-classifiarHeroi("Mago", 3500);
+classificarHeroi("Mago", 16350);
